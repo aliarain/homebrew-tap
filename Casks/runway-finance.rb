@@ -1,13 +1,11 @@
 cask "runway-finance" do
   version "0.1.0"
-  sha256 "12438a60b3a941684c49f157aff4a969d12c7cd8a9bd04a8d845642a7039dbe5"
+  sha256 "e94020280d0291cf660b560c32b3e6b9c5d5d4d78ed89248c2f9f9535ff9f938"
 
-  url "https://github.com/aliarain/runway-releases/releases/download/v#{version}/Runway_#{version}_aarch64.dmg"
+  url "https://github.com/aliarain/runway-releases/releases/download/v#{version}/Runway_#{version}_universal.dmg"
   name "Runway"
   desc "Local-first personal finance command center"
   homepage "https://github.com/aliarain/runway-releases"
-
-  depends_on arch: :arm64
 
   app "Runway.app"
 
