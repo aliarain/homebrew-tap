@@ -1,6 +1,6 @@
 cask "cue" do
   version "0.1.0"
-  sha256 "fa899f3faef81b7f13e5edc2598e620c5bdac027a6257601a2b5bc9df223a20f"
+  sha256 "f0a0b2e17b2992b504059ae6c9235f5ae41fd1b76d66c06547db21598e848121"
 
   url "https://github.com/aliarain/cue/releases/download/v#{version}/cue_#{version}_aarch64.dmg"
   name "cue"
