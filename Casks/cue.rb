@@ -19,9 +19,9 @@ cask "cue" do
 
   caveats <<~EOS
     cue is not yet signed/notarized with an Apple Developer ID.
-    If macOS refuses to open it, either install without quarantine:
+    If macOS refuses to open it, trust this tap before installing:
 
-      brew install --cask --no-quarantine aliarain/tap/cue
+      brew trust aliarain/tap
 
     or clear the quarantine flag after install:
 
