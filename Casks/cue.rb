@@ -7,7 +7,6 @@ cask "cue" do
   desc "Unmissable full-screen reminders — your Mac won't let you forget"
   homepage "https://github.com/aliarain/cue"
 
-  depends_on macos: ">= :sonoma"
   depends_on arch: :arm64
 
   app "cue.app"
